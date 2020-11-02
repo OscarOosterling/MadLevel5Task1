@@ -13,4 +13,6 @@
     <string name="addnotetitle">Title</string>
     <string name="savebuttontext">Save</string>
     <string name="Note">Note</string>
+    <string name="note_item_title">title</string>
+    <string name="item_note_text">text</string>
 </resources>
