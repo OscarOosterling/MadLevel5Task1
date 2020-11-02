@@ -8,7 +8,7 @@ class NoteRepository(context: Context){
     private val noteDao:NoteDao
 
     init {
-        val database = NotepadDatabase.getDatabase(context)
+        val database = NotepadRoomDatabase.getDatabase(context)
         noteDao = database!!.noteDao()
     }
     fun getNotepad():LiveData<Note?>{
